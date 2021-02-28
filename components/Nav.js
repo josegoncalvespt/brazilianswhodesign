@@ -5,12 +5,12 @@ export default function Nav(props) {
     <ul className="auxNav" {...props}>
       <li>
         <Link href="/about">
-          <a>About</a>
+          <a>Sobre</a>
         </Link>
       </li>
       <li>
         <Link href="/nominate">
-          <a>Nominate</a>
+          <a>Nomear</a>
         </Link>
       </li>
 

@@ -27,7 +27,7 @@ export default function Home({ designers }) {
   return (
     <div className="container">
       <Head>
-        <title>Brazilians Who Design | About</title>
+        <title>Developers Portugueses | Sobre</title>
         <link rel="icon" href="/favicon.ico" />
         <MetaTags />
       </Head>
@@ -66,20 +66,16 @@ export default function Home({ designers }) {
 
       <div className="moreabout">
         <div className="col-left">
-          <h3>How can I nominate someone?</h3>
+          <h3>Como é que posso nomear alguém?</h3>
           <p>
-            If you know a Brazilian designer whose work or voice is valuable to
-            the design industry, please{" "}
+            Se conheces um developer Português que merece estar nesta lista{" "}
             <Link href="/nominate">
-              <a className="link">fill out this form</a>
+              <a className="link">preenche este formulário</a>
             </Link>{" "}
-            with their information and a few words about why you're nominating
-            them. You can choose to link to their portfolio, to their Linkedin,
-            or to other social profiles — any link that you feel best represents
-            how that person is making a difference in the industry. We decided
-            not to collect or display the designer’s photo because we wanted the
-            repository to be less about what someone looks like and more about
-            how they’re making an impact in the industry.
+            com algumas informações sobre esse developer e o porquê de o estares
+            a nomear. O link pode redirecionar para o portfolio, Linkedin, ou
+            outra rede social - qualquer link que represente a maneira como estares
+            pessoa está a fazer a diferença na indústria.
           </p>
 
           <h3>Why are featuring artists as well?</h3>
@@ -91,14 +87,14 @@ export default function Home({ designers }) {
             learn more about.
           </p>
 
-          <h3>How did you come up with this idea?</h3>
+          <h3>Como é que tive a ideia de criar este projeto?</h3>
           <p>
-            We didn’t. This project is inspired by our fantastic sibling sites:
+            Não tive. Este projeto foi inspirado por outros projetos semelhantes:
           </p>
           <ul>
             <li>
-              <a className="link" href="https://womenwho.design/">
-                Women Who Design
+              <a className="link" href="https://portuguesewho.design/">
+                Portuguese Who Design
               </a>
             </li>
             <li>
@@ -149,9 +145,9 @@ export default function Home({ designers }) {
             </li>
           </ul>
 
-          <h3>How did you build this?</h3>
+          <h3>Como é que o projeto foi construído?</h3>
           <p>
-            Brazilians Who Design is{" "}
+            Developers Portugueses é um projeto{" "}
             <a
               className="link"
               target="_blank"
@@ -159,9 +155,9 @@ export default function Home({ designers }) {
             >
               open source
             </a>{" "}
-            for you create your own showcase. It is built inspired by the tech
-            stack that Jules Forrest kindly made available on Github after
-            building{" "}
+            para que cada pessoa consiga criar o seu espaço.
+            Este projeto é construído sobre o código publicado
+            por Jules Forrest no Github depois de construir{" "}
             <a
               className="link"
               target="_blank"
@@ -171,7 +167,7 @@ export default function Home({ designers }) {
             </a>
             <br />
             <br />
-            Sites built using our open-source platform:
+            Sites construídos com a mesma base:
           </p>
           <ul>
             <li>
@@ -191,44 +187,27 @@ export default function Home({ designers }) {
             </li>
           </ul>
           <br />
-          <p>
-            Thanks to Caio Braga, Rafael Frota, Karina Sirqueira, Al Lucca,
-            Bruno Oyama, Fabio Sasso, Daniel Furtado, Rodrigo Muniz, Lucas
-            Falcão, for the help of gathering the initial list of designers.
-          </p>
 
-          <h3>Who’s behind this?</h3>
+
+          <h3>Quem está por trás deste projeto?</h3>
           <ul>
             <li>
-              <a className="link" href="https://twitter.com/zehf">
-                Zeh Fernandes
+              <a className="link" href="https://twitter.com/jose_goncalves_">
+                José Gonçalves
               </a>
             </li>
             <li>
-              <a className="link" href="http://twitter.com/fabriciot">
-                Fabricio Teixeira
-              </a>
-            </li>
-            <li>
-              <a className="link" href="http://uxdesign.cc/">
-                UX Collective
+              <a className="link" href="https://twitter.com/ernstgnzlz">
+                Ernesto González
               </a>
             </li>
           </ul>
         </div>
         <div className="col-right">
-          <h3>How can I remove my name?</h3>
+          <h3>Como posso remover o meu nome?</h3>
           <p>
-            If you’ve been added to the directory and would like to opt-out or
-            make an edit to your profile, please send us a message at
-            hello@uxdesign.cc.
-          </p>
-          <h3>Why is my nomination taking so long to show?</h3>
-          <p>
-            We update this website once a week to include new names. To ensure a
-            healthy gender balance on this website, some nominations might take
-            longer to appear. In the meantime, try nominating a designer who
-            identifies as a woman or non-binary.
+            Se foste adicionado à lista e queres que o teu nome seja retirado
+            ou editar o teu perfil, envia um email para hello@joseg.pt
           </p>
         </div>
 

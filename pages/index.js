@@ -123,7 +123,7 @@ export default function Home({ designers, filters }) {
       }}
     >
       <Head>
-        <title>Brazilians Who Design</title>
+        <title>Developers Portugueses</title>
         <link id="favicon" rel="alternate icon" href="/favicon.ico" />
         <MetaTags />
       </Head>
@@ -190,7 +190,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
         <table className="large tableContent" cellSpacing="0">
           <thead id="tableHeader" ref={tableHeaderRef}>
             <tr>
-              <td>Name</td>
+              <td>Nome</td>
               <td
                 className="thsize-aux dn filterTable"
                 onClick={(e) => {
@@ -199,7 +199,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
                   e.preventDefault();
                 }}
               >
-                Location <FilterSVG />
+                Localização <FilterSVG />
               </td>
               <td
                 className="thsize-aux filterTable"
@@ -209,7 +209,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
                   e.preventDefault();
                 }}
               >
-                Expertise <FilterSVG />
+                Área <FilterSVG />
               </td>
               <td className="thsize-link"></td>
             </tr>
