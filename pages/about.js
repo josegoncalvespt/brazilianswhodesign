@@ -38,7 +38,7 @@ export default function Home({ designers }) {
 
       <Title
         className="title m0 p0"
-        text="Brazilians*who&nbsp;design&nbsp;is&nbsp;a"
+        text="&#8220;Developers*Portugueses&#8220;&nbsp;é&nbsp;um&nbsp;"
         noAnimation
       />
 
@@ -49,47 +49,42 @@ export default function Home({ designers }) {
         exit="hidden"
       >
         <p className="f1 extend">
-          <motion.span variants={item}>place to showcase</motion.span>{" "}
-          <motion.span variants={item}>the work of talented</motion.span>{" "}
-          <motion.span variants={item}>Brazilian designers to</motion.span>{" "}
-          <motion.span variants={item}>the world. The goal</motion.span>{" "}
-          <motion.span variants={item}>is to inspire new</motion.span>{" "}
-          <motion.span variants={item}>designers to diversify</motion.span>{" "}
-          <motion.span variants={item}>
-            their references, experienced designers
-          </motion.span>{" "}
-          <motion.span variants={item}>
-            to diversity their network, and companies to diversify their teams.
-          </motion.span>
+          <motion.span variants={item}>espaço para mostrar</motion.span>{" "}
+          <motion.span variants={item}>o trabalho de talentodos developers</motion.span>{" "}
+          <motion.span variants={item}> Portugueses</motion.span>{" "}
+          <motion.span variants={item}>e dar a conhecer</motion.span>{" "}
+          <motion.span variants={item}>aquilo que se faz</motion.span>{" "}
+          <motion.span variants={item}>nesta indústria em</motion.span>{" "}
+          <motion.span variants={item}>Portugal</motion.span>{" "}
         </p>
       </motion.div>
 
       <div className="moreabout">
         <div className="col-left">
-          <h3>Como é que posso nomear alguém?</h3>
+          <h3>Como posso nomear alguém?</h3>
           <p>
             Se conheces um developer Português que merece estar nesta lista{" "}
             <Link href="/nominate">
               <a className="link">preenche este formulário</a>
             </Link>{" "}
-            com algumas informações sobre esse developer e o porquê de o estares
+            com algumas informações sobre esse(a) developer e o porquê de o(a) estares
             a nomear. O link pode redirecionar para o portfolio, Linkedin, ou
-            outra rede social - qualquer link que represente a maneira como estares
+            outra rede social - qualquer link que represente a maneira como esta
             pessoa está a fazer a diferença na indústria.
           </p>
 
-          <h3>Why are featuring artists as well?</h3>
+          <h3>Porquê?</h3>
           <p>
-            We wanted to showcase not only contemporary Brazilian design, but
-            also leverage all the visibility that this project is getting to
-            celebrate the history of design in our country. Every time you
-            reload the website there’s a new featured Brazilian designer you can
-            learn more about.
+            O site "Developers Portugueses" tem como objetivo
+            dar a conhecer o talento nacional nas áreas
+            do desenvolvimento tecnológico. Um excelente recurso para quem
+            procura parceiros, freelancers ou simplesmente conhecer pessoas
+            novas com interesses comuns.
           </p>
 
-          <h3>Como é que tive a ideia de criar este projeto?</h3>
+          <h3>Como é que tivemos a ideia de criar este projeto?</h3>
           <p>
-            Não tive. Este projeto foi inspirado por outros projetos semelhantes:
+            Não tivemos. Este projeto foi inspirado por outros projetos semelhantes:
           </p>
           <ul>
             <li>
@@ -207,7 +202,7 @@ export default function Home({ designers }) {
           <h3>Como posso remover o meu nome?</h3>
           <p>
             Se foste adicionado à lista e queres que o teu nome seja retirado
-            ou editar o teu perfil, envia um email para hello@joseg.pt
+            ou editar o teu perfil, envia um email para ola@developersportugueses.pt
           </p>
         </div>
 
