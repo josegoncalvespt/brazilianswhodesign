@@ -17,11 +17,17 @@ export async function getServerSideProps() {
   const res = await fetch(`${origin}/api/designers`);
   const designers = await res.json();
 
+  let uniqueLocation = new Set();
+  designers.map((d) => uniqueLocation.add(d.location));
+
+  let uniqueLevel = new Set();
+  designers.map((d) => uniqueLevel.add(d.level));
+
   let uniqueExpertise = new Set();
   designers.map((d) => uniqueExpertise.add(d.expertise));
 
-  let uniqueLocation = new Set();
-  designers.map((d) => uniqueLocation.add(d.location));
+  let uniqueLink = new Set();
+  designers.map((d) => uniqueLink.add(d.link));
 
   let expertises = Array.from(uniqueExpertise).map((e) => {
     return { label: e, active: false, category: "expertise" };
@@ -33,7 +39,11 @@ export async function getServerSideProps() {
       return { label: e, active: false, category: "location" };
     });
 
-  let filters = expertises.concat(locations);
+  let levels = Array.from(uniqueLevel).map((e) => {
+    return { label: e, active: false, category: "level" };
+  });
+
+  let filters = expertises.concat(locations, levels);
 
   return {
     props: {
@@ -204,6 +214,16 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
               <td
                 className="thsize-aux filterTable"
                 onClick={(e) => {
+                  handleOpenFilter("level");
+
+                  e.preventDefault();
+                }}
+              >
+                Nível <FilterSVG />
+              </td>
+              <td
+                className="thsize-aux filterTable"
+                onClick={(e) => {
                   handleOpenFilter("expertise");
 
                   e.preventDefault();
@@ -220,6 +240,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
                 <tr key={`${d.name}-${i}`}>
                   <td><a href={d.link}>{d.name}</a></td>
                   <td className="thsize-aux dn"><a href={d.link}>{d.location}</a></td>
+                  <td className="thsize-aux"><a href={d.link}>{d.level}</a></td>
                   <td className="thsize-aux"><a href={d.link}>{d.expertise}</a></td>
                   <td className="thsize-link"><a href={d.link}>→</a></td>
                 </tr>
