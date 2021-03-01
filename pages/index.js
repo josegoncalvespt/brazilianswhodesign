@@ -212,7 +212,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
                 Localização <FilterSVG />
               </td>
               <td
-                className="thsize-aux filterTable"
+                className="thsize-aux dn filterTable"
                 onClick={(e) => {
                   handleOpenFilter("level");
 
@@ -240,7 +240,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
                 <tr key={`${d.name}-${i}`}>
                   <td><a href={d.link}>{d.name}</a></td>
                   <td className="thsize-aux dn"><a href={d.link}>{d.location}</a></td>
-                  <td className="thsize-aux"><a href={d.link}>{d.level}</a></td>
+                  <td className="thsize-aux dn"><a href={d.link}>{d.level}</a></td>
                   <td className="thsize-aux"><a href={d.link}>{d.expertise}</a></td>
                   <td className="thsize-link"><a href={d.link}>→</a></td>
                 </tr>
