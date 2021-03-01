@@ -7,7 +7,7 @@ export default function MetaTags() {
       <meta name="title" content="Developers Portugueses" />
       <meta
         name="description"
-        content="Espaço para mostrar o trabalho de talentodos developers Portugueses e dar a conhecer aquilo que se faz nesta indústria em Portugal"
+        content="Espaço para mostrar o trabalho de talentosos developers Portugueses e dar a conhecer aquilo que se faz nesta indústria em Portugal"
       />
 
       {/* <!-- Open Graph / Facebook --/> */}
@@ -16,7 +16,7 @@ export default function MetaTags() {
       <meta property="og:title" content="Developers Portugueses" />
       <meta
         property="og:description"
-        content="Espaço para mostrar o trabalho de talentodos developers Portugueses e dar a conhecer aquilo que se faz nesta indústria em Portugal"
+        content="Espaço para mostrar o trabalho de talentosos developers Portugueses e dar a conhecer aquilo que se faz nesta indústria em Portugal"
       />
       <meta
         property="og:image"
@@ -29,7 +29,7 @@ export default function MetaTags() {
       <meta property="twitter:title" content="Developers Portugueses" />
       <meta
         property="twitter:description"
-        content="Espaço para mostrar o trabalho de talentodos developers Portugueses e dar a conhecer aquilo que se faz nesta indústria em Portugal"
+        content="Espaço para mostrar o trabalho de talentosos developers Portugueses e dar a conhecer aquilo que se faz nesta indústria em Portugal"
       />
       <meta
         property="twitter:image"
