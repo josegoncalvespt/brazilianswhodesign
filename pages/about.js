@@ -77,7 +77,7 @@ export default function Home({ designers }) {
           <p>
             O site "Developers Portugueses" tem como objetivo
             dar a conhecer o talento nacional nas áreas
-            do desenvolvimento tecnológico. Um bom recurso para quem
+            do desenvolvimento tecnológico. Um excelente recurso para quem
             procura parceiros, freelancers ou simplesmente conhecer pessoas
             novas com interesses comuns.
           </p>
