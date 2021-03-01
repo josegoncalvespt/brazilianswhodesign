@@ -12,7 +12,7 @@ export default function MetaTags() {
 
       {/* <!-- Open Graph / Facebook --/> */}
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="http://developersportugueses.com/" />
+      <meta property="og:url" content="http://developersportugueses.pt/" />
       <meta property="og:title" content="Developers Portugueses" />
       <meta
         property="og:description"
@@ -20,12 +20,12 @@ export default function MetaTags() {
       />
       <meta
         property="og:image"
-        content="http://developersportugueses.com/img/preview.png"
+        content="http://developersportugueses.pt/img/preview.png"
       />
 
       {/* <!-- Twitter --/> */}
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="http://developersportugueses.com/" />
+      <meta property="twitter:url" content="http://developersportugueses.pt/" />
       <meta property="twitter:title" content="Developers Portugueses" />
       <meta
         property="twitter:description"
@@ -33,7 +33,7 @@ export default function MetaTags() {
       />
       <meta
         property="twitter:image"
-        content="http://developersportugueses.com/img/preview.png"
+        content="http://developersportugueses.pt/img/preview.png"
       />
     </>
   );
