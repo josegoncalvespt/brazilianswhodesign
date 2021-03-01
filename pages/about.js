@@ -50,7 +50,7 @@ export default function Home({ designers }) {
       >
         <p className="f1 extend">
           <motion.span variants={item}>espaço para mostrar</motion.span>{" "}
-          <motion.span variants={item}>o trabalho de talentodos developers</motion.span>{" "}
+          <motion.span variants={item}>o trabalho de talentosos developers</motion.span>{" "}
           <motion.span variants={item}> Portugueses</motion.span>{" "}
           <motion.span variants={item}>e dar a conhecer</motion.span>{" "}
           <motion.span variants={item}>aquilo que se faz</motion.span>{" "}
