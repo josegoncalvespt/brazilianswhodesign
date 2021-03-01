@@ -1,7 +1,7 @@
 import drive from "drive-db";
 
 export default async (req, res) => {
-  const db = await drive("2PACX-1vTKMdGdr071Eorezl9atrw_Vfucu5Vrg5sGEze9ageFt4HtGmgviPwv_QklxR3MQhv-jzYaPC_uF3mB");
+  const db = await drive("1wDPvcx0XJifRk8Ea2HzxBwZUaxfVebRU9AHwkRAeTK0");
   let sanitizeResult = db.filter(
     (item) => item.name != "" && item.show == "Yes"
   );

@@ -19,7 +19,7 @@ export default function Nominate({ designers }) {
           height="100%"
           frameBorder="0"
           allow="camera; microphone; autoplay; encrypted-media;"
-          src="https://form.typeform.com/to/bbrPUqMe"
+          src="https://8ra6klxjt79.typeform.com/to/C5I9gG47"
         ></iframe>{" "}
         <script
           type="text/javascript"
