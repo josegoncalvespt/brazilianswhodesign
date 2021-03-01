@@ -8,7 +8,7 @@ import MetaTags from "../components/Metatags.js";
 import Analytics from "../components/Analytics.js";
 import FilterSVG from "../components/Icons/FilterSVG.js";
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const origin =
     process.env.NODE_ENV !== "production"
       ? "http://localhost:3000"
